@@ -6,7 +6,7 @@
 }
 
 :root {
-  --hue: 15;
+  --hue: 190;
   --primary-color: rgba(234,85,43,255);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -380,6 +380,7 @@ body.menu-expanded button path {
 }
 
 #services .card h3 {
+  text-align: center;
   margin-block: 1.6rem;
 }
 
@@ -675,7 +676,7 @@ footer .social-links {
   }
 
   #home img {
-    width: 30rem;
+    width: 38rem;
   }
 
   /*=== SERVICES =================================*/
@@ -693,6 +694,11 @@ footer .social-links {
   #services .card {
     width: 30%;
     flex-grow: 1;
+  }
+
+  #services .cardCenter {
+  max-width: 30%;
+  margin-inline: auto;
   }
 
   /*=== ABOUT =================================*/
