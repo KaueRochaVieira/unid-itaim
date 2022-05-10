@@ -424,7 +424,7 @@ body.menu-expanded button path {
 
 /*=== FOOTER =================================*/
 footer {
-  background-color: var(--primary-color);
+  background-color: black;
   padding-block: 6rem;
 
   text-align: left;
