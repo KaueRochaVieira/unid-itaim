@@ -410,9 +410,11 @@ body.menu-expanded button path {
 }
 
 #about .content p {
+  font-size: 1.7rem;
+  text-indent: 2rem;
   margin-top: 2.4rem;
   margin-bottom: 6rem;
-  background-color: rgb(0, 0, 0, 0.514);
+  background-color: rgba(0, 0, 0, 0.292);
   color: white;
   text-shadow: 1px 1px 0px black;
 }
